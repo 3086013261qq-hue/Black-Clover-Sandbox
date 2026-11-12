@@ -1,0 +1,189 @@
+{
+  "schema": "Black Clover LOCATION batch-1 static draft manifest v0.1",
+  "status": "DRAFT / NOT INSTALLED / NOT SILLYTAVERN TESTED",
+  "notes": "LOC-01～06 仅触发候选表；全栈地点由<status>内当前位置触发，可能与其他层地点别名相互重叠，最终需实机校验。单一正则、双重防递归、非常驻；不指定insertion_order，不能冒称已安装。若状态栏当前位置含多级层级，应专门审计LOC-06与LOC-09等父子地点相互加载。",
+  "entries": [
+    {
+      "id": "LOC-01",
+      "comment": "地点:哈吉村与教堂",
+      "file": "worldbook/locations/LOC-01_哈吉村与教堂.md",
+      "source_status": "manga/wiki spot-checked; complete manga visual QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "aliases": [
+        "哈吉村与教堂",
+        "哈吉村",
+        "哈吉教堂",
+        "哈吉魔导书塔",
+        "哈吉村魔导书塔"
+      ],
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:哈吉村与教堂|哈吉村|哈吉教堂|哈吉魔导书塔|哈吉村魔导书塔)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-02",
+      "comment": "地点:索西村与周边林地",
+      "file": "worldbook/locations/LOC-02_索西村与周边林地.md",
+      "source_status": "manga/wiki spot-checked; complete manga visual QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "aliases": [
+        "索西村与周边林地",
+        "索西村",
+        "索西村森林",
+        "Sosshi",
+        "Saussy"
+      ],
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:索西村与周边林地|索西村|索西村森林|Sosshi|Saussy)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-03",
+      "comment": "地点:奇卡镇与骑士入团考场",
+      "file": "worldbook/locations/LOC-03_奇卡镇与骑士入团考场.md",
+      "source_status": "manga/wiki spot-checked; complete manga visual QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "aliases": [
+        "奇卡镇与骑士入团考场",
+        "奇卡镇",
+        "奇卡黑市",
+        "奇卡镇黑市",
+        "魔法骑士入团竞技场",
+        "Kikka"
+      ],
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:奇卡镇与骑士入团考场|奇卡镇|奇卡黑市|奇卡镇黑市|魔法骑士入团竞技场|Kikka)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-04",
+      "comment": "地点:涅安镇与丘陵洞窟",
+      "file": "worldbook/locations/LOC-04_涅安镇与丘陵洞窟.md",
+      "source_status": "manga/wiki spot-checked; complete manga visual QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "aliases": [
+        "涅安镇与丘陵洞窟",
+        "涅安镇",
+        "涅安镇教堂",
+        "涅安镇洞窟",
+        "Nairn",
+        "Nean"
+      ],
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:涅安镇与丘陵洞窟|涅安镇|涅安镇教堂|涅安镇洞窟|Nairn|Nean)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-05",
+      "comment": "地点:奇典镇与边境城防",
+      "file": "worldbook/locations/LOC-05_奇典镇与边境城防.md",
+      "source_status": "manga/wiki spot-checked; complete manga visual QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "aliases": [
+        "奇典镇与边境城防",
+        "奇典镇",
+        "奇典边防城",
+        "Kiten"
+      ],
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:奇典镇与边境城防|奇典镇|奇典边防城|Kiten)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-06",
+      "comment": "地点:王都与三叶草王城",
+      "file": "worldbook/locations/LOC-06_王都与三叶草王城.md",
+      "source_status": "manga/wiki spot-checked; complete manga visual QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "aliases": [
+        "王都与三叶草王城",
+        "王都",
+        "三叶草王都",
+        "三叶草王城",
+        "克洛弗王城",
+        "Clover Castle"
+      ],
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:王都与三叶草王城|王都|三叶草王都|三叶草王城|克洛弗王城|Clover Castle)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    }
+  ]
+}
