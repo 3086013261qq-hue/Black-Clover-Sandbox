@@ -1,0 +1,39 @@
+{
+  "build": "v1.0.0-assembly-rc1",
+  "status": "STATIC_QA_PASS_NOT_SILLYTAVERN_TESTED_NOT_FROZEN",
+  "totals": {
+    "entries": 409,
+    "markers": 14,
+    "reset": 1,
+    "memory_disabled": 3,
+    "blue": 8,
+    "green": 67,
+    "ability_green": 128,
+    "character": 128,
+    "timeline": 27,
+    "location": 27,
+    "fullstack_components": 6
+  },
+  "invariant": {
+    "one_timeline_only": true,
+    "memory_slots_off": true,
+    "recursive_trigger_safety": true,
+    "per_character_same_keys": true,
+    "section_order_descending": true,
+    "display_index_matches_array": true,
+    "no_mvu": true,
+    "location_emoji_test": true,
+    "location_wrong_field_test": true,
+    "cross_place_pairs": 702,
+    "cross_place_collisions": 0
+  },
+  "source_hold": [
+    "LOC-17钻石王国军政核心区域"
+  ],
+  "known_warning": [
+    "TL-01 v4正文奇典镇黑市/奇卡镇用词待授权单点修订",
+    "人物与能力的完整成长档案需要在实际对话中按TL事件锁定后期知识；静态正则不等于时间门控",
+    "核心设定195条触发设定共享整数段位302～391，需酒馆实际验证同order排序",
+    "Character Card V3内嵌世界书、开场、用户预设、移动端状态栏渲染尚未实机验收"
+  ]
+}
