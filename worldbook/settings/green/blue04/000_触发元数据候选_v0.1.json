@@ -1,0 +1,302 @@
+{
+  "schema": "Black Clover GREEN draft manifest v0.1",
+  "notes": "BLUE-04九条战斗修炼绿灯。静态候选、非实时引擎测试。9条均启用但非常驻，使用多字词触发，双防递归。正式insertion_order等待整卡装配；圣域、究极魔法等的个人获得时点由时间线管理。",
+  "entries": [
+    {
+      "id": "GREEN-04-01",
+      "topic": "魔力皮肤与环境适应",
+      "source_blue": "BLUE-04",
+      "file": "worldbook/settings/green/blue04/GREEN-04-01_魔力皮肤与环境适应.md",
+      "comment": "核心设定:魔力皮肤与环境适应",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Mana_Skin",
+        "https://blackclover.fandom.com/wiki/Grand_Magic_Zone"
+      ],
+      "source_status": "Wiki cross-checked; primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔力皮肤",
+          "玛那皮肤",
+          "Mana Skin",
+          "魔力包覆",
+          "魔力保护层"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-04-02",
+      "topic": "魔力领域与自然魔支配",
+      "source_blue": "BLUE-04",
+      "file": "worldbook/settings/green/blue04/GREEN-04-02_魔力领域与自然魔支配.md",
+      "comment": "核心设定:魔力领域与自然魔支配",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Mana_Zone"
+      ],
+      "source_status": "Wiki cross-checked; primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔力领域",
+          "玛那领域",
+          "Mana Zone",
+          "领域内施法",
+          "自然魔支配"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-04-03",
+      "topic": "魔言术式与符文阵列",
+      "source_blue": "BLUE-04",
+      "file": "worldbook/settings/green/blue04/GREEN-04-03_魔言术式与符文阵列.md",
+      "comment": "核心设定:魔言术式与符文阵列",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Mana_Method",
+        "https://blackclover.fandom.com/wiki/Rune_array"
+      ],
+      "source_status": "Wiki cross-checked; primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔言术式",
+          "Mana Method",
+          "符文阵列",
+          "魔言符文",
+          "符文魔法阵"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-04-04",
+      "topic": "真魔法与真实元素",
+      "source_blue": "BLUE-04",
+      "file": "worldbook/settings/green/blue04/GREEN-04-04_真魔法与真实元素.md",
+      "comment": "核心设定:真魔法与真实元素",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Mana_Method",
+        "https://blackclover.fandom.com/wiki/Chapter_284"
+      ],
+      "source_status": "Wiki cross-checked; primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "真魔法",
+          "真雷魔法",
+          "真火魔法",
+          "真水魔法",
+          "True Magic"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-04-05",
+      "topic": "精灵族秘传究极魔法",
+      "source_blue": "BLUE-04",
+      "file": "worldbook/settings/green/blue04/GREEN-04-05_精灵族秘传究极魔法.md",
+      "comment": "核心设定:精灵族秘传究极魔法",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Ultimate_Magic",
+        "https://blackclover.fandom.com/wiki/Chapter_284"
+      ],
+      "source_status": "Wiki cross-checked; primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "究极魔法",
+          "Ultimate Magic",
+          "精灵族秘术",
+          "究极术式"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-04-06",
+      "topic": "魔导阶域与战力评估",
+      "source_blue": "BLUE-04",
+      "file": "worldbook/settings/green/blue04/GREEN-04-06_魔导阶域与战力评估.md",
+      "comment": "核心设定:魔导阶域与战力评估",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Mana",
+        "https://blackclover.fandom.com/wiki/Mana_Method"
+      ],
+      "source_status": "Wiki cross-checked; primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔导阶域",
+          "第零域",
+          "第一域",
+          "第九域",
+          "魔导等级评估",
+          "Magic Stage"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-04-07",
+      "topic": "冥域与恶魔对抗特性",
+      "source_blue": "BLUE-04",
+      "file": "worldbook/settings/green/blue04/GREEN-04-07_冥域与恶魔对抗特性.md",
+      "comment": "核心设定:冥域与恶魔对抗特性",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Mana",
+        "https://blackclover.fandom.com/wiki/Devil"
+      ],
+      "source_status": "Wiki cross-checked; primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "冥域",
+          "冥域魔导士",
+          "Arcane Stage",
+          "异常魔法特性",
+          "对恶魔有效的魔法"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-04-08",
+      "topic": "精灵同化与圣域",
+      "source_blue": "BLUE-04",
+      "file": "worldbook/settings/green/blue04/GREEN-04-08_精灵同化与圣域.md",
+      "comment": "核心设定:精灵同化与圣域",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Spirit_Magic",
+        "https://blackclover.fandom.com/wiki/Spirit_Dive",
+        "https://blackclover.fandom.com/wiki/Saint_Spirit_of_Zephyr"
+      ],
+      "source_status": "Wiki cross-checked; primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "精灵同化",
+          "Spirit Dive",
+          "圣域",
+          "Saint Stage",
+          "精灵共鸣"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-04-09",
+      "topic": "合体魔法与复合魔法",
+      "source_blue": "BLUE-04",
+      "file": "worldbook/settings/green/blue04/GREEN-04-09_合体魔法与复合魔法.md",
+      "comment": "核心设定:合体魔法与复合魔法",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Compound_Magic"
+      ],
+      "source_status": "Wiki cross-checked; primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "合体魔法",
+          "复合魔法",
+          "Union Magic",
+          "Compound Magic",
+          "组合施法"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    }
+  ]
+}
