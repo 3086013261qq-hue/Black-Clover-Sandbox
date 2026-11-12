@@ -1,0 +1,33 @@
+name: Build Black Clover Fullstack Worldbook
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assembly/scripts/build_worldbook.py'
+      - 'assembly/worldbook/components/**'
+      - '.github/workflows/build-black-clover-worldbook.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Assemble and validate 409 entries
+        run: python assembly/scripts/build_worldbook.py
+      - name: Commit generated lorebook and QA only if changed
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assembly/worldbook/dist/黑色四叶草_character_book.json assembly/worldbook/dist/黑色四叶草_装配静态QA.json
+          if ! git diff --cached --quiet; then
+            git commit -m "build(worldbook): generate audited Black Clover character_book"
+            git push
+          fi
