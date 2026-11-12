@@ -1,0 +1,184 @@
+{
+  "schema": "Black Clover GREEN draft manifest v0.1",
+  "notes": "纯静态候选母表；字段结构参照既有全栈V3工程；insertion_order待全卡装配时确定。已启用但非常驻，双重防递归均在extensions。",
+  "entries": [
+    {
+      "id": "GREEN-02-01",
+      "topic": "自然之魔与魔力储量",
+      "source_blue": "BLUE-02",
+      "file": "worldbook/settings/green/blue02/GREEN-02-01_自然之魔与魔力储量.md",
+      "comment": "核心设定:自然之魔与魔力储量",
+      "source_status": "wiki page cross-check; manga panel verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "自然魔",
+          "自然之魔",
+          "魔力储量",
+          "魔力枯竭",
+          "魔力耗尽"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-02-02",
+      "topic": "四大元素与派生属性",
+      "source_blue": "BLUE-02",
+      "file": "worldbook/settings/green/blue02/GREEN-02-02_四大元素与派生属性.md",
+      "comment": "核心设定:四大元素与派生属性",
+      "source_status": "wiki page cross-check; manga panel verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "四大元素",
+          "四大自然属性",
+          "属性衍生",
+          "火魔法",
+          "水魔法",
+          "风魔法",
+          "土魔法"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-02-03",
+      "topic": "魔法天赋与多属性例外",
+      "source_blue": "BLUE-02",
+      "file": "worldbook/settings/green/blue02/GREEN-02-03_魔法天赋与多属性例外.md",
+      "comment": "核心设定:魔法天赋与多属性例外",
+      "source_status": "wiki page cross-check; manga panel verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔法天赋",
+          "魔法血统",
+          "双魔法属性",
+          "多重魔法属性",
+          "第二魔法属性"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-02-04",
+      "topic": "创造回复强化与法术形式",
+      "source_blue": "BLUE-02",
+      "file": "worldbook/settings/green/blue02/GREEN-02-04_创造回复强化与法术形式.md",
+      "comment": "核心设定:创造、回复、强化与法术形式",
+      "source_status": "wiki page cross-check; manga panel verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔法形式",
+          "创造魔法",
+          "回复魔法",
+          "治疗魔法",
+          "强化魔法",
+          "拘束魔法",
+          "陷阱魔法"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-02-05",
+      "topic": "魔法属性相性与克制",
+      "source_blue": "BLUE-02",
+      "file": "worldbook/settings/green/blue02/GREEN-02-05_魔法属性相性与克制.md",
+      "comment": "核心设定:魔法属性相性与克制",
+      "source_status": "wiki page cross-check; manga panel verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "属性相性",
+          "属性克制",
+          "魔法克制",
+          "水火相克",
+          "雷水相克"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-02-06",
+      "topic": "魔力感知控制与失衡",
+      "source_blue": "BLUE-02",
+      "file": "worldbook/settings/green/blue02/GREEN-02-06_魔力感知控制与失衡.md",
+      "comment": "核心设定:魔力感知、控制与失衡",
+      "source_status": "wiki page cross-check; manga panel verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔力感知",
+          "魔力探知",
+          "感知魔力",
+          "魔力控制",
+          "魔力失控"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    }
+  ]
+}
