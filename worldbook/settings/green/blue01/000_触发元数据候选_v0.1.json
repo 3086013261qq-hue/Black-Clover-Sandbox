@@ -1,6 +1,6 @@
 {
   "schema": "Black Clover GREEN draft manifest v0.1",
-  "notes": "仅静态候选母表；字段结构沿用既有 Zenless-Zone-Zero-Sandbox v2.6 绿灯成熟方案的 build 字段（非已装卡）；新增交互待实机确认。",
+  "notes": "仅静态候选母表；GREEN启用/非常驻/双重防递归字段结构参照既有成熟V3项目。正式insertion_order尚未分配，待全层目录固定并核对全栈原工具包后确定，不能照搬其他作品序号。",
   "entries": [
     {
       "id": "GREEN-01-01",
@@ -23,7 +23,6 @@
         "constant": false,
         "selective": true,
         "use_regex": false,
-        "insertion_order": 302,
         "position": "after_char",
         "extensions": {
           "position": 1,
@@ -53,7 +52,6 @@
         "constant": false,
         "selective": true,
         "use_regex": false,
-        "insertion_order": 303,
         "position": "after_char",
         "extensions": {
           "position": 1,
@@ -83,7 +81,6 @@
         "constant": false,
         "selective": true,
         "use_regex": false,
-        "insertion_order": 304,
         "position": "after_char",
         "extensions": {
           "position": 1,
@@ -113,7 +110,6 @@
         "constant": false,
         "selective": true,
         "use_regex": false,
-        "insertion_order": 305,
         "position": "after_char",
         "extensions": {
           "position": 1,
