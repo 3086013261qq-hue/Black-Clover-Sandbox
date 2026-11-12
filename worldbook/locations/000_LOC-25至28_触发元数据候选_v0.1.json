@@ -1,0 +1,126 @@
+{
+  "schema": "Black Clover four supplemental canon place drafts v0.1",
+  "status": "STRICT LOCATION STATIC QA / NOT FROZEN / NOT SILLYTAVERN TESTED",
+  "notes": "漫画第266/229/250/232话定点核对补录4地点，元数据只扫status当前位置同一行，防递归双开、非永久、未设置insertion_order。",
+  "entries": [
+    {
+      "id": "LOC-25",
+      "comment": "地点:浮士德家旧宅与地下恶魔仪式室",
+      "file": "worldbook/locations/LOC-25_浮士德家旧宅与地下恶魔仪式室.md",
+      "aliases": [
+        "浮士德家旧宅与地下恶魔仪式室",
+        "浮士德家旧宅",
+        "浮士德家地下仪式室",
+        "浮士德宅邸",
+        "恶魔缚仪式室",
+        "Faust Estate"
+      ],
+      "source_status": "Black Clover manga/Wiki spot-check; not complete 392 page image audit",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
+      "build": {
+        "keys": [
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:浮士德家旧宅与地下恶魔仪式室|浮士德家旧宅|浮士德家地下仪式室|浮士德宅邸|恶魔缚仪式室|Faust Estate))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "selective": true,
+        "enabled": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-26",
+      "comment": "地点:黑桃王国托隆镇",
+      "file": "worldbook/locations/LOC-26_黑桃王国托隆镇.md",
+      "aliases": [
+        "黑桃王国托隆镇",
+        "托隆镇",
+        "托隆",
+        "Tolon",
+        "Toron"
+      ],
+      "source_status": "Black Clover manga/Wiki spot-check; not complete 392 page image audit",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
+      "build": {
+        "keys": [
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:黑桃王国托隆镇|托隆镇|托隆|Tolon|Toron))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "selective": true,
+        "enabled": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-27",
+      "comment": "地点:红心王国波伦弗卢姆森林",
+      "file": "worldbook/locations/LOC-27_红心王国波伦弗卢姆森林.md",
+      "aliases": [
+        "红心王国波伦弗卢姆森林",
+        "波伦弗卢姆森林",
+        "波伦弗卢姆果林",
+        "Polnfrume Forest"
+      ],
+      "source_status": "Black Clover manga/Wiki spot-check; not complete 392 page image audit",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
+      "build": {
+        "keys": [
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:红心王国波伦弗卢姆森林|波伦弗卢姆森林|波伦弗卢姆果林|Polnfrume Forest))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "selective": true,
+        "enabled": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-28",
+      "comment": "地点:红心王国艾尔莫拉湖",
+      "file": "worldbook/locations/LOC-28_红心王国艾尔莫拉湖.md",
+      "aliases": [
+        "红心王国艾尔莫拉湖",
+        "艾尔莫拉湖",
+        "艾尔莫拉地下湖",
+        "Elmora Lake"
+      ],
+      "source_status": "Black Clover manga/Wiki spot-check; not complete 392 page image audit",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
+      "build": {
+        "keys": [
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:红心王国艾尔莫拉湖|艾尔莫拉湖|艾尔莫拉地下湖|Elmora Lake))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "selective": true,
+        "enabled": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    }
+  ]
+}
