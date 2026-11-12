@@ -1,0 +1,226 @@
+{
+  "schema": "Black Clover GREEN draft manifest v0.1",
+  "notes": "纯静态草案：已启用、非常驻、关键词触发、双重防递归。insertion_order 在全层装配后分配。五叶草形成原因等后期秘密留给时间线与角色能力。",
+  "entries": [
+    {
+      "id": "GREEN-03-01",
+      "topic": "魔导书塔与受领仪式",
+      "source_blue": "BLUE-03",
+      "file": "worldbook/settings/green/blue03/GREEN-03-01_魔导书塔与受领仪式.md",
+      "comment": "核心设定:魔导书塔与受领仪式",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Grimoire",
+        "https://blackclover.fandom.com/wiki/Grimoire_Acceptance_Ceremony",
+        "https://blackclover.fandom.com/wiki/Chapter_1"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔导书受领仪式",
+          "魔导书塔",
+          "领书仪式",
+          "塔主"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-03-02",
+      "topic": "魔导书的书页与成长",
+      "source_blue": "BLUE-03",
+      "file": "worldbook/settings/green/blue03/GREEN-03-02_魔导书的书页与成长.md",
+      "comment": "核心设定:魔导书的书页与成长",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Grimoire"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔导书书页",
+          "魔导书咒文",
+          "新法术书页",
+          "魔导书成长"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-03-03",
+      "topic": "四国魔导书纹章与叶数",
+      "source_blue": "BLUE-03",
+      "file": "worldbook/settings/green/blue03/GREEN-03-03_四国魔导书纹章与叶数.md",
+      "comment": "核心设定:四国魔导书纹章与叶数",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Grimoire",
+        "https://blackclover.fandom.com/wiki/Grimoire/Gallery"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "三叶草魔导书",
+          "四叶草魔导书",
+          "魔导书纹章",
+          "魔导书叶数"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-03-04",
+      "topic": "魔导书的归属与消亡",
+      "source_blue": "BLUE-03",
+      "file": "worldbook/settings/green/blue03/GREEN-03-04_魔导书的归属与消亡.md",
+      "comment": "核心设定:魔导书的归属与消亡",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Grimoire"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔导书归属",
+          "魔导书主人",
+          "魔导书消失",
+          "魔导书失效",
+          "借用魔导书"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-03-05",
+      "topic": "五叶草与异常魔导书",
+      "source_blue": "BLUE-03",
+      "file": "worldbook/settings/green/blue03/GREEN-03-05_五叶草与异常魔导书.md",
+      "comment": "核心设定:五叶草与异常魔导书",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Grimoire",
+        "https://blackclover.fandom.com/wiki/Yuno_Grinberryall",
+        "https://blackclover.fandom.com/wiki/Chapter_1"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "五叶草魔导书",
+          "五叶草之书",
+          "异常魔导书",
+          "双魔导书",
+          "单页魔导书"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-03-06",
+      "topic": "日之国卷轴与施法",
+      "source_blue": "BLUE-03",
+      "file": "worldbook/settings/green/blue03/GREEN-03-06_日之国卷轴与施法.md",
+      "comment": "核心设定:日之国卷轴与施法",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Scroll",
+        "https://blackclover.fandom.com/wiki/Hino_Country"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "妖术卷轴",
+          "日之国卷轴",
+          "妖术施法",
+          "卷轴咒文"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-03-07",
+      "topic": "魔导具与危险的暗魔导具",
+      "source_blue": "BLUE-03",
+      "file": "worldbook/settings/green/blue03/GREEN-03-07_魔导具与危险的暗魔导具.md",
+      "comment": "核心设定:魔导具与危险的暗魔导具",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Magic_tool",
+        "https://blackclover.fandom.com/wiki/Communication_Magic"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔导具制作",
+          "魔导具工匠",
+          "暗魔导具",
+          "特殊魔导具",
+          "魔力吸收道具"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "exclude_recursion": true,
+          "prevent_recursion": true
+        }
+      }
+    }
+  ]
+}
