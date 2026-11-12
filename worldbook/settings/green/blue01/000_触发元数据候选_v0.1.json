@@ -1,0 +1,98 @@
+{
+  "schema": "Black Clover GREEN draft manifest v0.1",
+  "notes": "工程候选字段，不代表已完成 Character Card V3 装卡或实机测试。目录状态不等于封版。",
+  "entries": [
+    {
+      "id": "GREEN-01-01",
+      "topic": "四大王国的方位与边境",
+      "source_blue": "BLUE-01",
+      "file": "worldbook/settings/green/blue01/GREEN-01-01_四大王国的方位与边境.md",
+      "comment": "核心设定:四大王国的方位与边境",
+      "keys": [
+        "四大王国",
+        "三叶草王国边境",
+        "钻石王国边境",
+        "红心王国边境",
+        "黑桃王国边境"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "secondary_keys": [],
+      "prevent_recursion": true,
+      "exclude_recursion": true,
+      "source_status": "wiki cross-check; manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE"
+    },
+    {
+      "id": "GREEN-01-02",
+      "topic": "三叶草王国三重地域与阶层",
+      "source_blue": "BLUE-01",
+      "file": "worldbook/settings/green/blue01/GREEN-01-02_三叶草王国三重地域与阶层.md",
+      "comment": "核心设定:三叶草王国三重地域与阶层",
+      "keys": [
+        "王贵界",
+        "平界",
+        "惠外界",
+        "恵外界",
+        "三叶草王国阶层"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "secondary_keys": [],
+      "prevent_recursion": true,
+      "exclude_recursion": true,
+      "source_status": "wiki cross-check; manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE"
+    },
+    {
+      "id": "GREEN-01-03",
+      "topic": "民间魔法生活与交通通信",
+      "source_blue": "BLUE-01",
+      "file": "worldbook/settings/green/blue01/GREEN-01-03_民间魔法生活与交通通信.md",
+      "comment": "核心设定:民间魔法生活与交通通信",
+      "keys": [
+        "魔法生活",
+        "魔法扫帚",
+        "通信魔导具",
+        "民间魔导具",
+        "魔杖"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "secondary_keys": [],
+      "prevent_recursion": true,
+      "exclude_recursion": true,
+      "source_status": "wiki cross-check; manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE"
+    },
+    {
+      "id": "GREEN-01-04",
+      "topic": "中立地带强魔地区与魔宫",
+      "source_blue": "BLUE-01",
+      "file": "worldbook/settings/green/blue01/GREEN-01-04_中立地带强魔地区与魔宫.md",
+      "comment": "核心设定:中立地带、强魔地区与魔宫",
+      "keys": [
+        "中立地带",
+        "强魔地带",
+        "强魔地区",
+        "魔宫",
+        "迷宫遗迹"
+      ],
+      "enabled": true,
+      "constant": false,
+      "selective": true,
+      "use_regex": false,
+      "secondary_keys": [],
+      "prevent_recursion": true,
+      "exclude_recursion": true,
+      "source_status": "wiki cross-check; manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE"
+    }
+  ]
+}
