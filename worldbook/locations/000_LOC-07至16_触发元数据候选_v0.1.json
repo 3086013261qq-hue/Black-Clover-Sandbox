@@ -1,7 +1,7 @@
 {
   "schema": "Black Clover location batch-2 trigger manifest v0.1",
-  "status": "STATIC DRAFT / NOT INSTALLED / NOT FROZEN",
-  "notes": "按<status>中的当前位置触发，地点各自独立；不照搬旧卡插入序号。LOC-06王都与LOC-09裁判所为父子地点，需在装卡时核查多重命中；此处只储存正则候选，不保证酒馆适配。凡以'总部'/'魔宫'/'王宫'等过泛词触发的方案一律拒绝。",
+  "status": "STRICT_LOCATION_LINE_REGEX_STATIC_DRAFT_NOT_FROZEN",
+  "notes": "QA-060结构修复：仅匹配<status>内当前位置[:：]字段同一行，防止其他状态行串读。LOC-06排除外国王都和魔法议会裁判所；去重别名、保留双重防递归。未装卡，不标FROZEN。",
   "entries": [
     {
       "id": "LOC-07",
@@ -9,16 +9,15 @@
       "file": "worldbook/locations/LOC-07_黑色暴牛总部与可变形据点.md",
       "aliases": [
         "黑色暴牛总部与可变形据点",
-        "黑色暴牛总部与可变形据点",
         "黑色暴牛总部",
         "黑色暴牛据点",
         "黑牛总部"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:黑色暴牛总部与可变形据点|黑色暴牛总部与可变形据点|黑色暴牛总部|黑色暴牛据点|黑牛总部)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:黑色暴牛总部与可变形据点|黑色暴牛总部|黑色暴牛据点|黑牛总部))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -39,16 +38,15 @@
       "file": "worldbook/locations/LOC-08_金色黎明总部.md",
       "aliases": [
         "金色黎明总部",
-        "金色黎明总部",
         "金色黎明据点",
         "金色黎明基地",
         "Golden Dawn headquarters"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:金色黎明总部|金色黎明总部|金色黎明据点|金色黎明基地|Golden Dawn headquarters)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:金色黎明总部|金色黎明据点|金色黎明基地|Golden Dawn headquarters))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -69,16 +67,15 @@
       "file": "worldbook/locations/LOC-09_魔法议会裁判所.md",
       "aliases": [
         "魔法议会裁判所",
-        "魔法议会裁判所",
         "魔法议会审判庭",
         "王都魔法议会",
         "魔法议会法庭"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:魔法议会裁判所|魔法议会裁判所|魔法议会审判庭|王都魔法议会|魔法议会法庭)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:魔法议会裁判所|魔法议会审判庭|王都魔法议会|魔法议会法庭))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -99,16 +96,15 @@
       "file": "worldbook/locations/LOC-10_王撰骑士团选拔赛场.md",
       "aliases": [
         "王撰骑士团选拔赛场",
-        "王撰骑士团选拔赛场",
         "王撰骑士选拔赛场",
         "王选骑士选拔赛场",
         "魔晶石破坏赛场"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:王撰骑士团选拔赛场|王撰骑士团选拔赛场|王撰骑士选拔赛场|王选骑士选拔赛场|魔晶石破坏赛场)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:王撰骑士团选拔赛场|王撰骑士选拔赛场|王选骑士选拔赛场|魔晶石破坏赛场))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -129,16 +125,15 @@
       "file": "worldbook/locations/LOC-11_三叶草与钻石边境魔宫探索遗迹.md",
       "aliases": [
         "三叶草与钻石边境魔宫探索遗迹",
-        "三叶草与钻石边境魔宫探索遗迹",
         "边境魔宫探索遗迹",
         "钻石边境魔宫",
         "两国边境魔宫"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:三叶草与钻石边境魔宫探索遗迹|三叶草与钻石边境魔宫探索遗迹|边境魔宫探索遗迹|钻石边境魔宫|两国边境魔宫)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:三叶草与钻石边境魔宫探索遗迹|边境魔宫探索遗迹|钻石边境魔宫|两国边境魔宫))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -159,16 +154,15 @@
       "file": "worldbook/locations/LOC-12_海底神殿与水下聚落.md",
       "aliases": [
         "海底神殿与水下聚落",
-        "海底神殿与水下聚落",
         "海底神殿",
         "海底神殿聚落",
         "Seabed Temple"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:海底神殿与水下聚落|海底神殿与水下聚落|海底神殿|海底神殿聚落|Seabed Temple)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:海底神殿与水下聚落|海底神殿|海底神殿聚落|Seabed Temple))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -189,16 +183,15 @@
       "file": "worldbook/locations/LOC-13_魔女之森.md",
       "aliases": [
         "魔女之森",
-        "魔女之森",
         "魔女森林",
         "魔女之森王宫",
         "Witches' Forest"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:魔女之森|魔女之森|魔女森林|魔女之森王宫|Witches' Forest)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:魔女之森|魔女森林|魔女之森王宫|Witches' Forest))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -219,16 +212,15 @@
       "file": "worldbook/locations/LOC-14_格拉维托岩石带与白夜魔眼主据点.md",
       "aliases": [
         "格拉维托岩石带与白夜魔眼主据点",
-        "格拉维托岩石带与白夜魔眼主据点",
         "格拉维托岩石带",
         "重力岩石地带",
         "白夜魔眼主据点"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:格拉维托岩石带与白夜魔眼主据点|格拉维托岩石带与白夜魔眼主据点|格拉维托岩石带|重力岩石地带|白夜魔眼主据点)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:格拉维托岩石带与白夜魔眼主据点|格拉维托岩石带|重力岩石地带|白夜魔眼主据点))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -249,16 +241,15 @@
       "file": "worldbook/locations/LOC-15_影之王宫.md",
       "aliases": [
         "影之王宫",
-        "影之王宫",
         "影の王宮",
         "Shadow Palace",
         "影之王宫入口"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:影之王宫|影之王宫|影の王宮|Shadow Palace|影之王宫入口)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:影之王宫|影の王宮|Shadow Palace|影之王宫入口))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,
@@ -279,16 +270,15 @@
       "file": "worldbook/locations/LOC-16_红心王国王宫.md",
       "aliases": [
         "红心王国王宫",
-        "红心王国王宫",
         "红心王宫",
         "红心女王王宫",
         "Heart Kingdom Royal Palace"
       ],
       "source_status": "wiki/manga spot-check, complete manga visual QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:红心王国王宫|红心王国王宫|红心王宫|红心女王王宫|Heart Kingdom Royal Palace)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:红心王国王宫|红心王宫|红心女王王宫|Heart Kingdom Royal Palace))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "enabled": true,

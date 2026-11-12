@@ -1,7 +1,7 @@
 {
   "schema": "Black Clover locations final batch LOC-18 to LOC-24 draft v0.1",
-  "status": "7 VALID SOURCE DRAFTS / LOC-17 SOURCE-HOLD / NOT INSTALLED / NOT FROZEN",
-  "notes": "LOC-17须有独立具名或明确图示的钻石军政物理场址才能生成运行时地点，现仍SOURCE-HOLD，不虚构首都实验大楼；最终只含七条键。位置依据status中当前位置；禁止普通泛词匹配，排查父子位置或别名并发。",
+  "status": "STRICT_LOCATION_LINE_REGEX_STATIC_DRAFT_NOT_FROZEN",
+  "notes": "QA-060结构修复：仅匹配<status>内当前位置[:：]字段同一行，防止其他状态行串读。LOC-06排除外国王都和魔法议会裁判所；去重别名、保留双重防递归。未装卡，不标FROZEN。",
   "entries": [
     {
       "id": "LOC-18",
@@ -16,10 +16,10 @@
         "Spade Kingdom castle"
       ],
       "source_status": "manga/wiki spot checked; additional manga page QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:黑桃王国王都与王城|黑桃王国王城|黑桃王城|黑桃王国王都|黑桃王国城堡|Spade Kingdom castle)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:黑桃王国王都与王城|黑桃王国王城|黑桃王城|黑桃王国王都|黑桃王国城堡|Spade Kingdom castle))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "constant": false,
@@ -36,20 +36,19 @@
     },
     {
       "id": "LOC-19",
-      "comment": "地点:坎德洛移动要塞与边境居民营地",
-      "file": "worldbook/locations/LOC-19_坎德洛移动要塞与边境居民营地.md",
+      "comment": "地点:坎德洛移动要塞",
+      "file": "worldbook/locations/LOC-19_坎德洛移动要塞.md",
       "aliases": [
-        "坎德洛移动要塞与边境居民营地",
         "坎德洛移动要塞",
         "坎德洛",
         "Candelo",
         "黑桃移动要塞"
       ],
       "source_status": "manga/wiki spot checked; additional manga page QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:坎德洛移动要塞与边境居民营地|坎德洛移动要塞|坎德洛|Candelo|黑桃移动要塞)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:坎德洛移动要塞|坎德洛|Candelo|黑桃移动要塞))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "constant": false,
@@ -76,10 +75,10 @@
         "エリュシア"
       ],
       "source_status": "manga/wiki spot checked; additional manga page QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:精灵隐村艾琉西亚|艾琉西亚|精灵村艾琉西亚|Elysia|エリュシア)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:精灵隐村艾琉西亚|艾琉西亚|精灵村艾琉西亚|Elysia|エリュシア))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "constant": false,
@@ -107,10 +106,10 @@
         "Goshu"
       ],
       "source_status": "manga/wiki spot checked; additional manga page QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:日之国伍州与龙头家居所|日之国伍州|伍州|伍州龙头家居所|伍州黑海|Goshu)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:日之国伍州与龙头家居所|日之国伍州|伍州|伍州龙头家居所|伍州黑海|Goshu))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "constant": false,
@@ -138,10 +137,10 @@
         "Qliphoth gate"
       ],
       "source_status": "manga/wiki spot checked; additional manga page QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:冥府与冥府之门|冥府之门|冥府|恶魔冥府|Underworld|Qliphoth gate)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:冥府与冥府之门|冥府之门|冥府|恶魔冥府|Underworld|Qliphoth gate))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "constant": false,
@@ -169,10 +168,10 @@
         "Raquey"
       ],
       "source_status": "manga/wiki spot checked; additional manga page QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:拉凯海滨镇|拉凯|拉凯海岸|拉凯海滩|Raque|Raquey)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:拉凯海滨镇|拉凯|拉凯海岸|拉凯海滩|Raque|Raquey))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "constant": false,
@@ -199,10 +198,10 @@
         "Ultime-Volcano Mountain Trail"
       ],
       "source_status": "manga/wiki spot checked; additional manga page QA pending",
-      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "qa_status": "STRICT_POSITION_LINE_STATIC_QA",
       "build": {
         "keys": [
-          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:尤尔蒂姆火山登山道|尤尔蒂姆火山|尤尔蒂姆火山道|Yultim Volcano Trail|Ultime-Volcano Mountain Trail)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+          "/<status\\b[^>]*>(?:(?!<\\/status>)[\\s\\S])*?^[ \\t]*当前位置[:：][ \\t]*(?=[^\\r\\n<]*(?:尤尔蒂姆火山登山道|尤尔蒂姆火山|尤尔蒂姆火山道|Yultim Volcano Trail|Ultime-Volcano Mountain Trail))[^\\r\\n<]*(?=\\r?$)(?:(?!<\\/status>)[\\s\\S])*?<\\/status>/m"
         ],
         "secondary_keys": [],
         "constant": false,
