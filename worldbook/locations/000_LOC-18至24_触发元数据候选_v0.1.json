@@ -1,0 +1,221 @@
+{
+  "schema": "Black Clover locations final batch LOC-18 to LOC-24 draft v0.1",
+  "status": "7 VALID SOURCE DRAFTS / LOC-17 SOURCE-HOLD / NOT INSTALLED / NOT FROZEN",
+  "notes": "LOC-17须有独立具名或明确图示的钻石军政物理场址才能生成运行时地点，现仍SOURCE-HOLD，不虚构首都实验大楼；最终只含七条键。位置依据status中当前位置；禁止普通泛词匹配，排查父子位置或别名并发。",
+  "entries": [
+    {
+      "id": "LOC-18",
+      "comment": "地点:黑桃王国王都与王城",
+      "file": "worldbook/locations/LOC-18_黑桃王国王都与王城.md",
+      "aliases": [
+        "黑桃王国王都与王城",
+        "黑桃王国王城",
+        "黑桃王城",
+        "黑桃王国王都",
+        "黑桃王国城堡",
+        "Spade Kingdom castle"
+      ],
+      "source_status": "manga/wiki spot checked; additional manga page QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:黑桃王国王都与王城|黑桃王国王城|黑桃王城|黑桃王国王都|黑桃王国城堡|Spade Kingdom castle)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "enabled": true,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-19",
+      "comment": "地点:坎德洛移动要塞与边境居民营地",
+      "file": "worldbook/locations/LOC-19_坎德洛移动要塞与边境居民营地.md",
+      "aliases": [
+        "坎德洛移动要塞与边境居民营地",
+        "坎德洛移动要塞",
+        "坎德洛",
+        "Candelo",
+        "黑桃移动要塞"
+      ],
+      "source_status": "manga/wiki spot checked; additional manga page QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:坎德洛移动要塞与边境居民营地|坎德洛移动要塞|坎德洛|Candelo|黑桃移动要塞)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "enabled": true,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-20",
+      "comment": "地点:精灵隐村艾琉西亚",
+      "file": "worldbook/locations/LOC-20_精灵隐村艾琉西亚.md",
+      "aliases": [
+        "精灵隐村艾琉西亚",
+        "艾琉西亚",
+        "精灵村艾琉西亚",
+        "Elysia",
+        "エリュシア"
+      ],
+      "source_status": "manga/wiki spot checked; additional manga page QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:精灵隐村艾琉西亚|艾琉西亚|精灵村艾琉西亚|Elysia|エリュシア)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "enabled": true,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-21",
+      "comment": "地点:日之国伍州与龙头家居所",
+      "file": "worldbook/locations/LOC-21_日之国伍州与龙头家居所.md",
+      "aliases": [
+        "日之国伍州与龙头家居所",
+        "日之国伍州",
+        "伍州",
+        "伍州龙头家居所",
+        "伍州黑海",
+        "Goshu"
+      ],
+      "source_status": "manga/wiki spot checked; additional manga page QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:日之国伍州与龙头家居所|日之国伍州|伍州|伍州龙头家居所|伍州黑海|Goshu)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "enabled": true,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-22",
+      "comment": "地点:冥府与冥府之门",
+      "file": "worldbook/locations/LOC-22_冥府与冥府之门.md",
+      "aliases": [
+        "冥府与冥府之门",
+        "冥府之门",
+        "冥府",
+        "恶魔冥府",
+        "Underworld",
+        "Qliphoth gate"
+      ],
+      "source_status": "manga/wiki spot checked; additional manga page QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:冥府与冥府之门|冥府之门|冥府|恶魔冥府|Underworld|Qliphoth gate)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "enabled": true,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-23",
+      "comment": "地点:拉凯海滨镇",
+      "file": "worldbook/locations/LOC-23_拉凯海滨镇.md",
+      "aliases": [
+        "拉凯海滨镇",
+        "拉凯",
+        "拉凯海岸",
+        "拉凯海滩",
+        "Raque",
+        "Raquey"
+      ],
+      "source_status": "manga/wiki spot checked; additional manga page QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:拉凯海滨镇|拉凯|拉凯海岸|拉凯海滩|Raque|Raquey)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "enabled": true,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "LOC-24",
+      "comment": "地点:尤尔蒂姆火山登山道",
+      "file": "worldbook/locations/LOC-24_尤尔蒂姆火山登山道.md",
+      "aliases": [
+        "尤尔蒂姆火山登山道",
+        "尤尔蒂姆火山",
+        "尤尔蒂姆火山道",
+        "Yultim Volcano Trail",
+        "Ultime-Volcano Mountain Trail"
+      ],
+      "source_status": "manga/wiki spot checked; additional manga page QA pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "/<status>[\\s\\S]*?当前位置:[^\\n<]*(?:尤尔蒂姆火山登山道|尤尔蒂姆火山|尤尔蒂姆火山道|Yultim Volcano Trail|Ultime-Volcano Mountain Trail)[^\\n<]*[\\s\\S]*?<\\/status>/s"
+        ],
+        "secondary_keys": [],
+        "constant": false,
+        "enabled": true,
+        "selective": true,
+        "use_regex": true,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    }
+  ]
+}
