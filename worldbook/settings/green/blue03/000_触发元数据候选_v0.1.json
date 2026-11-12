@@ -1,6 +1,6 @@
 {
   "schema": "Black Clover GREEN draft manifest v0.1",
-  "notes": "纯静态草案：已启用、非常驻、关键词触发、双重防递归。insertion_order 在全层装配后分配。五叶草形成原因等后期秘密留给时间线与角色能力。",
+  "notes": "纯静态草案：已启用、非常驻、关键词触发、双重防递归。insertion_order 在全层装配后分配。五叶草形成原因等后期秘密留给时间线与角色能力。 总审将普通五叶草规则与较晚期双书例外分离，GREEN-03-08 须依剧情阶段开关。",
   "entries": [
     {
       "id": "GREEN-03-01",
@@ -143,7 +143,6 @@
           "五叶草魔导书",
           "五叶草之书",
           "异常魔导书",
-          "双魔导书",
           "单页魔导书"
         ],
         "secondary_keys": [],
@@ -219,6 +218,40 @@
           "position": 1,
           "exclude_recursion": true,
           "prevent_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-03-08",
+      "topic": "双魔导书与特殊持有",
+      "source_blue": "BLUE-03",
+      "file": "worldbook/settings/green/blue03/GREEN-03-08_双魔导书与特殊持有.md",
+      "comment": "核心设定:双魔导书与特殊持有",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Grimoire",
+        "https://blackclover.fandom.com/wiki/Yuno_Grinberryall"
+      ],
+      "source_status": "wiki cross-check; manga story timing pending",
+      "qa_status": "STATIC_REVIEW_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "HIGH_STORY_PHASE_RELEVANT",
+      "build": {
+        "keys": [
+          "双魔导书",
+          "两本魔导书",
+          "第二本魔导书",
+          "双重魔导书",
+          "不同王国魔导书"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
         }
       }
     }
