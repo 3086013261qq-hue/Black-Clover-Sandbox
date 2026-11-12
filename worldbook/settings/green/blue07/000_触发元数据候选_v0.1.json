@@ -1,0 +1,371 @@
+{
+  "schema": "Black Clover GREEN draft manifest v0.1",
+  "notes": "BLUE-07 一组11篇精炼内世界正文，纯静态文件，非已装卡。已启用但非常驻、字面关键词匹配、双重防递归；insertion_order未分配。涉及转生、冥府门户、禁术、契约等晚期知识的条目只标敏感标签；关键词本身不能提供严格剧情门控。",
+  "entries": [
+    {
+      "id": "GREEN-07-01",
+      "topic": "古代精灵族与魔法传承",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-01_古代精灵族与魔法传承.md",
+      "comment": "核心设定:古代精灵族与魔法传承",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Elf_Tribe"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "精灵族历史",
+          "古代精灵族",
+          "精灵族魔力",
+          "精灵族村落"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-02",
+      "topic": "矮人族与混血天赋",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-02_矮人族与混血天赋.md",
+      "comment": "核心设定:矮人族与混血天赋",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Dwarf",
+        "https://blackclover.fandom.com/wiki/Chapter_194"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "矮人族",
+          "矮人血统",
+          "人类矮人混血",
+          "古代矮人"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-03",
+      "topic": "四大元素精灵与契约",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-03_四大元素精灵与契约.md",
+      "comment": "核心设定:四大元素精灵与契约",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Spirit_Magic",
+        "https://blackclover.fandom.com/wiki/Sylph",
+        "https://blackclover.fandom.com/wiki/Salamander",
+        "https://blackclover.fandom.com/wiki/Undine"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "四大元素精灵",
+          "元素精灵契约",
+          "风精灵",
+          "火精灵",
+          "水精灵",
+          "土精灵"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-04",
+      "topic": "精灵转生与灵魂附身",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-04_精灵转生与灵魂附身.md",
+      "comment": "核心设定:精灵转生与灵魂附身",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Reincarnation_Magic",
+        "https://blackclover.fandom.com/wiki/Elf_Tribe"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "HIGH_STORY_PHASE_RELEVANT",
+      "build": {
+        "keys": [
+          "精灵转生",
+          "转生魔法",
+          "灵魂附身",
+          "转生法术",
+          "精灵族转生"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-05",
+      "topic": "暗精灵与负面魔力",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-05_暗精灵与负面魔力.md",
+      "comment": "核心设定:暗精灵与负面魔力",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Elf_Tribe",
+        "https://blackclover.fandom.com/wiki/Forbidden_Magic"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "HIGH_STORY_PHASE_RELEVANT",
+      "build": {
+        "keys": [
+          "暗精灵",
+          "黑暗精灵化",
+          "负面魔力侵蚀",
+          "邪心"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-06",
+      "topic": "恶魔种族与冥府阶序",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-06_恶魔种族与冥府阶序.md",
+      "comment": "核心设定:恶魔种族与冥府阶序",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Devil"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "恶魔种族",
+          "恶魔阶级",
+          "下位恶魔",
+          "中位恶魔",
+          "上位恶魔",
+          "最高位恶魔"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-07",
+      "topic": "冥府七层与克里福特之树",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-07_冥府七层与克里福特之树.md",
+      "comment": "核心设定:冥府七层与克里福特之树",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Tree_of_Qliphoth",
+        "https://blackclover.fandom.com/wiki/Chapter_263"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "HIGH_STORY_PHASE_RELEVANT",
+      "build": {
+        "keys": [
+          "冥府七层",
+          "克里福特之树",
+          "冥府之门",
+          "冥府最底层",
+          "克里福特降临"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-08",
+      "topic": "恶魔宿主与契约仪式",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-08_恶魔宿主与契约仪式.md",
+      "comment": "核心设定:恶魔宿主与契约仪式",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Devil",
+        "https://blackclover.fandom.com/wiki/Unite",
+        "https://blackclover.fandom.com/wiki/Chapter_266",
+        "https://blackclover.fandom.com/wiki/Chapter_270"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "HIGH_STORY_PHASE_RELEVANT",
+      "build": {
+        "keys": [
+          "恶魔宿主",
+          "恶魔附身者",
+          "从魔仪式",
+          "恶魔契约仪式",
+          "恶魔同化"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-09",
+      "topic": "禁术与冥府之角",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-09_禁术与冥府之角.md",
+      "comment": "核心设定:禁术与冥府之角",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Forbidden_Magic",
+        "https://blackclover.fandom.com/wiki/Weg",
+        "https://blackclover.fandom.com/wiki/Magic_stone"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "HIGH_STORY_PHASE_RELEVANT",
+      "build": {
+        "keys": [
+          "禁术代价",
+          "冥府禁术",
+          "维格之角",
+          "Weg",
+          "黑色恶魔角"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-10",
+      "topic": "诅咒术与咒符魔法",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-10_诅咒术与咒符魔法.md",
+      "comment": "核心设定:诅咒术与咒符魔法",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Curse_Magic",
+        "https://blackclover.fandom.com/wiki/Curse-Warding_Magic"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "HIGH_STORY_PHASE_RELEVANT",
+      "build": {
+        "keys": [
+          "诅咒术",
+          "诅咒魔法",
+          "咒符魔法",
+          "恶魔诅咒",
+          "解除诅咒"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-07-11",
+      "topic": "魔神与真正恶魔的区别",
+      "source_blue": "BLUE-07",
+      "file": "worldbook/settings/green/blue07/GREEN-07-11_魔神与真正恶魔的区别.md",
+      "comment": "核心设定:魔神与真正恶魔的区别",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Demon",
+        "https://blackclover.fandom.com/wiki/Devil"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "魔神",
+          "巨大魔神",
+          "魔神化",
+          "魔神与恶魔",
+          "禁术魔神"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    }
+  ]
+}
