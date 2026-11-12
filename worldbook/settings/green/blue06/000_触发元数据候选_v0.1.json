@@ -1,0 +1,323 @@
+{
+  "schema": "Black Clover GREEN draft manifest v0.1",
+  "notes": "蓝灯06十条绿灯候选；全部启用但非常驻，仅多字关键词触发且防递归双开。特殊剧情条目07、08必须在时间线安排与用户自选开关阶段校核；目前没有自动时间门控，精确关键词并不能提供绝对剧透隔离。insertion_order待装配统一确定。",
+  "entries": [
+    {
+      "id": "GREEN-06-01",
+      "topic": "钻石王国的魔导军制",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-01_钻石王国的魔导军制.md",
+      "comment": "核心设定:钻石王国的魔导军制",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Diamond_Kingdom"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "钻石王国魔导战士",
+          "钻石王国军队",
+          "钻石王国入侵",
+          "钻石魔导军"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-06-02",
+      "topic": "钻石王国八辉将",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-02_钻石王国八辉将.md",
+      "comment": "核心设定:钻石王国八辉将",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Eight_Shining_Generals",
+        "https://blackclover.fandom.com/wiki/Diamond_Kingdom"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "八辉将",
+          "旧八辉将",
+          "新八辉将",
+          "钻石王国将领"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-06-03",
+      "topic": "钻石王国的魔导研究与人体实验",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-03_钻石王国的魔导研究与人体实验.md",
+      "comment": "核心设定:钻石王国的魔导研究与人体实验",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Diamond_Kingdom",
+        "https://blackclover.fandom.com/wiki/Eight_Shining_Generals"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "钻石王国魔导学者",
+          "魔导战士改造",
+          "魔石植入",
+          "钻石王国人体实验"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-06-04",
+      "topic": "红心王国王女与水精灵守护",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-04_红心王国王女与水精灵守护.md",
+      "comment": "核心设定:红心王国王女与水精灵守护",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Heart_Kingdom"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "红心王国王女",
+          "红心王国王室",
+          "红心水精灵契约",
+          "红心王国边境结界"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-06-05",
+      "topic": "红心王国五位精灵守护者",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-05_红心王国五位精灵守护者.md",
+      "comment": "核心设定:红心王国五位精灵守护者",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Spirit_Guardian",
+        "https://blackclover.fandom.com/wiki/Heart_Kingdom"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "精灵守护者",
+          "五位精灵守护者",
+          "红心王国守护者",
+          "Spirit Guardian"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-06-06",
+      "topic": "黑桃王国的边境军势",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-06_黑桃王国的边境军势.md",
+      "comment": "核心设定:黑桃王国的边境军势",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Spade_Kingdom"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "黑桃王国军队",
+          "黑桃王国边境军",
+          "黑桃王国要塞",
+          "黑桃王国征伐"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-06-07",
+      "topic": "黑桃王国旧王室与忠诚者",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-07_黑桃王国旧王室与忠诚者.md",
+      "comment": "核心设定:黑桃王国旧王室与忠诚者",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/House_Grinberryall",
+        "https://blackclover.fandom.com/wiki/Resistance"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "HIGH_STORY_PHASE_RELEVANT",
+      "build": {
+        "keys": [
+          "格林贝里奥尔家",
+          "黑桃王国旧王室",
+          "黑桃王国抵抗军",
+          "黑桃王国王统"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-06-08",
+      "topic": "漆黑三极性与漆黑使徒",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-08_漆黑三极性与漆黑使徒.md",
+      "comment": "核心设定:漆黑三极性与漆黑使徒",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Dark_Triad",
+        "https://blackclover.fandom.com/wiki/Spade_Kingdom"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "HIGH_STORY_PHASE_RELEVANT",
+      "build": {
+        "keys": [
+          "漆黑三极性",
+          "漆黑的三极性",
+          "漆黑使徒",
+          "Dark Triad",
+          "Dark Disciples"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-06-09",
+      "topic": "白夜魔眼与三魔眼",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-09_白夜魔眼与三魔眼.md",
+      "comment": "核心设定:白夜魔眼与三魔眼",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Eye_of_the_Midnight_Sun"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "白夜魔眼",
+          "三魔眼",
+          "白夜魔眼成员",
+          "白夜魔眼魔石"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-06-10",
+      "topic": "魔女之森的独立秩序",
+      "source_blue": "BLUE-06",
+      "file": "worldbook/settings/green/blue06/GREEN-06-10_魔女之森的独立秩序.md",
+      "comment": "核心设定:魔女之森的独立秩序",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Witches%27_Forest",
+        "https://blackclover.fandom.com/wiki/Witch_Queen"
+      ],
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "NORMAL",
+      "build": {
+        "keys": [
+          "魔女之森",
+          "魔女王",
+          "森林魔女",
+          "魔女之森出逃者"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    }
+  ]
+}
