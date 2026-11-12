@@ -1,0 +1,313 @@
+{
+  "schema": "Black Clover GREEN draft manifest v0.1",
+  "notes": "BLUE-05九条绿灯；各条按关键词启用、非常驻、双重防递归。具体人物的团长变更、权力交接、星果祭数值属于时间线，不写通用绿灯。insertion_order在全卡装配时分配。未执行SillyTavern实机。",
+  "entries": [
+    {
+      "id": "GREEN-05-01",
+      "topic": "王室与三大王家",
+      "source_blue": "BLUE-05",
+      "file": "worldbook/settings/green/blue05/GREEN-05-01_王室与三大王家.md",
+      "comment": "核心设定:王室与三大王家",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Clover_Kingdom",
+        "https://blackclover.fandom.com/wiki/Clover_Castle",
+        "https://blackclover.fandom.com/wiki/House_Vermillion"
+      ],
+      "source_status": "wiki cross-check, primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "三大王家",
+          "基拉王家",
+          "希尔巴王家",
+          "凡米利安王家",
+          "三叶草国王"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-05-02",
+      "topic": "魔法帝的职责与实绩",
+      "source_blue": "BLUE-05",
+      "file": "worldbook/settings/green/blue05/GREEN-05-02_魔法帝的职责与实绩.md",
+      "comment": "核心设定:魔法帝的职责与实绩",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Wizard_King",
+        "https://blackclover.fandom.com/wiki/Magic_Knights"
+      ],
+      "source_status": "wiki cross-check, primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔法帝",
+          "魔法帝职责",
+          "魔法帝职权",
+          "成为魔法帝",
+          "魔法帝功绩"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-05-03",
+      "topic": "九大魔法骑士团名录",
+      "source_blue": "BLUE-05",
+      "file": "worldbook/settings/green/blue05/GREEN-05-03_九大魔法骑士团名录.md",
+      "comment": "核心设定:九大魔法骑士团名录",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Magic_Knights",
+        "https://blackclover.fandom.com/wiki/Golden_Dawn",
+        "https://blackclover.fandom.com/wiki/Black_Bull",
+        "https://blackclover.fandom.com/wiki/Blue_Rose",
+        "https://blackclover.fandom.com/wiki/Crimson_Lion"
+      ],
+      "source_status": "wiki cross-check, primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "九大魔法骑士团",
+          "九大骑士团",
+          "金色黎明",
+          "黑色暴牛",
+          "银翼大鹫",
+          "红莲狮子王",
+          "碧之野蔷薇"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-05-04",
+      "topic": "团长副团长与骑士团披风",
+      "source_blue": "BLUE-05",
+      "file": "worldbook/settings/green/blue05/GREEN-05-04_团长副团长与骑士团披风.md",
+      "comment": "核心设定:团长副团长与骑士团披风",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Magic_Knights",
+        "https://blackclover.fandom.com/wiki/Black_Bull",
+        "https://blackclover.fandom.com/wiki/Aqua_Deer"
+      ],
+      "source_status": "wiki cross-check, primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "骑士团团长",
+          "魔法骑士团团长",
+          "骑士团副团长",
+          "骑士团披风",
+          "骑士团团徽"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-05-05",
+      "topic": "魔法骑士入团考试",
+      "source_blue": "BLUE-05",
+      "file": "worldbook/settings/green/blue05/GREEN-05-05_魔法骑士入团考试.md",
+      "comment": "核心设定:魔法骑士入团考试",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Magic_Knights_Entrance_Exam",
+        "https://blackclover.fandom.com/wiki/Magic_Knights",
+        "https://blackclover.fandom.com/wiki/House_Vermillion"
+      ],
+      "source_status": "wiki cross-check, primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "骑士团入团考试",
+          "魔法骑士选拔",
+          "魔法骑士入团",
+          "骑士入团考核",
+          "团长举手"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-05-06",
+      "topic": "魔法骑士军阶与晋升",
+      "source_blue": "BLUE-05",
+      "file": "worldbook/settings/green/blue05/GREEN-05-06_魔法骑士军阶与晋升.md",
+      "comment": "核心设定:魔法骑士军阶与晋升",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Magic_Knights"
+      ],
+      "source_status": "wiki cross-check, primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "下级魔法骑士",
+          "中级魔法骑士",
+          "上级魔法骑士",
+          "大魔法骑士",
+          "五等下级",
+          "魔法骑士军阶"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-05-07",
+      "topic": "功绩星与战功授勋",
+      "source_blue": "BLUE-05",
+      "file": "worldbook/settings/green/blue05/GREEN-05-07_功绩星与战功授勋.md",
+      "comment": "核心设定:功绩星与战功授勋",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Magic_Knights",
+        "https://blackclover.fandom.com/wiki/Star_Awards_Festival",
+        "https://blackclover.fandom.com/wiki/Royal_Knights_Selection_Exam"
+      ],
+      "source_status": "wiki cross-check, primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "功绩星",
+          "黑星",
+          "战功授勋",
+          "星果祭",
+          "骑士团排名",
+          "战功授勋仪式"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-05-08",
+      "topic": "骑士任务与驻防纪律",
+      "source_blue": "BLUE-05",
+      "file": "worldbook/settings/green/blue05/GREEN-05-08_骑士任务与驻防纪律.md",
+      "comment": "核心设定:骑士任务与驻防纪律",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Magic_Knights",
+        "https://blackclover.fandom.com/wiki/Black_Bull"
+      ],
+      "source_status": "wiki cross-check, primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔法骑士任务",
+          "骑士团巡防",
+          "骑士团驻地",
+          "魔法骑士的职责",
+          "骑士团纪律"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-05-09",
+      "topic": "魔法议会与王国审判",
+      "source_blue": "BLUE-05",
+      "file": "worldbook/settings/green/blue05/GREEN-05-09_魔法议会与王国审判.md",
+      "comment": "核心设定:魔法议会与王国审判",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Magic_Parliament",
+        "https://blackclover.fandom.com/wiki/Clover_Kingdom"
+      ],
+      "source_status": "wiki cross-check, primary manga verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "build": {
+        "keys": [
+          "魔法议会",
+          "王国审判",
+          "魔法审判",
+          "议会裁决",
+          "贵族法庭"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    }
+  ]
+}
