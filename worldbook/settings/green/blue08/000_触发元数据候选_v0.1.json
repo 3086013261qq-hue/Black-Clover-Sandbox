@@ -1,0 +1,352 @@
+{
+  "schema": "Black Clover GREEN draft manifest v0.1",
+  "notes": "BLUE-08十条日之国绿灯。已启用但非常驻的静态候选元数据，不等于已装卡测试。候选键为多字词，use_regex=false，双防递归。日之国及其传说为较晚剧情登场设定；如按漫画卷顺序扮演，应通过世界书条目开关防止提前触发。正式插入顺序留待装配 QA。",
+  "entries": [
+    {
+      "id": "GREEN-08-01",
+      "topic": "日之国风俗与异乡来客",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-01_日之国风俗与异乡来客.md",
+      "comment": "核心设定:日之国风俗与异乡来客",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Hino_Country",
+        "https://blackclover.fandom.com/wiki/Chapter_338"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "日之国风俗",
+          "日之国语言",
+          "日之国文化",
+          "日之国姓名",
+          "日之国异乡人"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-08-02",
+      "topic": "将军与诸州领主",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-02_将军与诸州领主.md",
+      "comment": "核心设定:将军与诸州领主",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Hino_Country",
+        "https://blackclover.fandom.com/wiki/Goshu",
+        "https://blackclover.fandom.com/wiki/Koshu",
+        "https://blackclover.fandom.com/wiki/Yosuga_Musyogatake"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "日之国将军",
+          "日之国领主",
+          "伍州领主",
+          "广州领主",
+          "龙头家"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-08-03",
+      "topic": "龙禅七人众与护国职责",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-03_龙禅七人众与护国职责.md",
+      "comment": "核心设定:龙禅七人众与护国职责",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Ryuzen_Seven",
+        "https://blackclover.fandom.com/wiki/Chapter_338"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "龙禅七人众",
+          "龙禅七人",
+          "日之国护卫",
+          "龙禅武士"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-08-04",
+      "topic": "妖力妖术与当地施法传统",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-04_妖力妖术与当地施法传统.md",
+      "comment": "核心设定:妖力妖术与当地施法传统",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Hino_Country",
+        "https://blackclover.fandom.com/wiki/Scroll",
+        "https://blackclover.fandom.com/wiki/Chapter_338"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "妖力",
+          "妖术",
+          "日之国妖术",
+          "妖术属性",
+          "妖力修行"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-08-05",
+      "topic": "气的感知与生命迹象",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-05_气的感知与生命迹象.md",
+      "comment": "核心设定:气的感知与生命迹象",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Ki",
+        "https://blackclover.fandom.com/wiki/Chapter_339"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "气的感知",
+          "察觉气息",
+          "气息辨识",
+          "感知气",
+          "气的流动"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-08-06",
+      "topic": "气的主动运用与身体强化",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-06_气的主动运用与身体强化.md",
+      "comment": "核心设定:气的主动运用与身体强化",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Ki",
+        "https://blackclover.fandom.com/wiki/Chapter_338",
+        "https://blackclover.fandom.com/wiki/Chapter_339"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "驾驭气",
+          "操纵气",
+          "气的主动运用",
+          "气与妖力",
+          "气的身体强化"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-08-07",
+      "topic": "绝天的瞬发原理",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-07_绝天的瞬发原理.md",
+      "comment": "核心设定:绝天的瞬发原理",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Zetten",
+        "https://blackclover.fandom.com/wiki/Chapter_339"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "绝天",
+          "Zetten",
+          "绝天一击",
+          "绝天爆发",
+          "绝天之技"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-08-08",
+      "topic": "绝天的变化与临战取舍",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-08_绝天的变化与临战取舍.md",
+      "comment": "核心设定:绝天的变化与临战取舍",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Zetten",
+        "https://blackclover.fandom.com/wiki/Chapter_339",
+        "https://blackclover.fandom.com/wiki/Chapter_341"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "绝天连击",
+          "绝天多重斩",
+          "绝天分流",
+          "绝天的弱点",
+          "绝天训练"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-08-09",
+      "topic": "日之国刀术与近身武艺",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-09_日之国刀术与近身武艺.md",
+      "comment": "核心设定:日之国刀术与近身武艺",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Hino_Country",
+        "https://blackclover.fandom.com/wiki/Chapter_338",
+        "https://blackclover.fandom.com/wiki/Zetten"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "日之国刀术",
+          "日之国武道",
+          "日之国武士刀",
+          "打刀",
+          "武士刀技"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    },
+    {
+      "id": "GREEN-08-10",
+      "topic": "五头龙与黑海旧传",
+      "source_blue": "BLUE-08",
+      "file": "worldbook/settings/green/blue08/GREEN-08-10_五头龙与黑海旧传.md",
+      "comment": "核心设定:五头龙与黑海旧传",
+      "source_urls": [
+        "https://blackclover.fandom.com/wiki/Goshu",
+        "https://blackclover.fandom.com/wiki/Five-headed_dragon",
+        "https://blackclover.fandom.com/wiki/Chapter_342"
+      ],
+      "source_status": "wiki source navigation plus chapter 338/339/342 summaries; full manga page verification pending",
+      "qa_status": "STATIC_DRAFT_NOT_IN_ENGINE",
+      "spoiler_sensitivity": "LATE_HINO_ARC_WORLD_LORE",
+      "build": {
+        "keys": [
+          "五头龙传说",
+          "伍州黑海",
+          "日之国黑海",
+          "天女封龙",
+          "黑海传说"
+        ],
+        "secondary_keys": [],
+        "enabled": true,
+        "constant": false,
+        "selective": true,
+        "use_regex": false,
+        "position": "after_char",
+        "extensions": {
+          "position": 1,
+          "prevent_recursion": true,
+          "exclude_recursion": true
+        }
+      }
+    }
+  ]
+}
